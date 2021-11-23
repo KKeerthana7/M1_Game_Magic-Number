@@ -23,7 +23,7 @@ Why: It is a fun based method between two people.
 # 1H:
 * Go to the mobile application.
 * Open the calculator app and to perform the mathematical pattern.
-# Detail Reequirements:4
+# Detail Requirements:
  * High Level Requirements:
  
    Input a number.
