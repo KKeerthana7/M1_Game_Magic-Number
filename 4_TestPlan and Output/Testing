@@ -1,4 +1,4 @@
-High Level Requirements:
+* High Level Requirements:
 
 Input a number.
 
@@ -8,7 +8,7 @@ Check the final answer is equal to the condition given.
 
 If yes,then the number is a Magic Number.
 
-Low Level Requirements:
+* Low Level Requirements:
 
 User inputs.
 
