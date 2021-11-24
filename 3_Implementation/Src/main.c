@@ -1,4 +1,4 @@
-#iinclude<stdio.h>
+#include<stdio.h>
 
 
 int sum_of_dig(int x) 
