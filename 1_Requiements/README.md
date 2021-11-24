@@ -1,5 +1,5 @@
 # Requirements
-# Introduction : Magic nunmber
+# Introduction : Magic number
      A number is said to be a Magic Number, if the recursive sum of the digits up to single digit will be equal to 1.
 # Features:
      If the single digit of the given sum of the digits is 1 the the number is called a magic number.
