@@ -1,1 +1,15 @@
+High Level Requirements:
 
+Input a number.
+
+Calculate the sum of the digits.
+
+Check the final answer is equal to the condition given.
+
+If yes,then the number is a Magic Number.
+
+Low Level Requirements:
+
+User inputs.
+
+Condition should be applied.
