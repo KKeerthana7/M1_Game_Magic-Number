@@ -47,4 +47,75 @@ Why: It is a fun based method between two people.
 ![Behavioural Diagram](https://user-images.githubusercontent.com/94303488/143221633-de8c77f2-9031-4f34-a880-fa70a65f4cc4.png)
 
 # Implementation:
-   
+ #include<stdio.h>
+
+
+int sum_of_dig(int x) 
+  
+{
+  
+int s=0, digit;
+  
+while(x>0) 
+  
+{
+digit = x℅10;
+s = s+digit;
+x = x/10;
+  
+  
+}
+return s;
+  
+}
+
+int main()
+  
+{
+int n, sum;
+  
+  
+printf("enter the number\n") ;
+  
+gets("℅d", &n);
+  
+sum = sum_of_dig(n);
+  
+while(sum>0&&sum>9) 
+{
+sum = sum_of_dig(sum);
+  
+}
+  
+if (sum==1) 
+  
+printf("the given number ℅d is Magic Number and sum value is ℅d", n, sum);
+  
+else
+  
+printf ("the given number ℅d is not a Magic Number and sum value is %d", n, sum);
+  
+  return 0;
+  
+}
+
+# TestPlan
+   High Level Requirements:
+
+Input a number.
+
+Calculate the sum of the digits.
+
+Check the final answer is equal to the condition given.
+
+If yes,then the number is a Magic Number.
+
+Low Level Requirements:
+
+User inputs.
+
+Condition should be applied.
+
+# Output
+ 
+![output](https://user-images.githubusercontent.com/94303488/143222653-74fe6b00-8c71-4462-b3ac-27912698f695.jpeg)
